@@ -24,9 +24,45 @@
 		      <a href="#!" class="brand-logo hide-on-small-only left logonav">Logo</a>
 		      <a href="#" data-target="mobile-demo" class="show-on-small hide-on-med-and-up sidenav-trigger"><i class="material-icons">menu</i></a><!--logo mobile-->
 		      <ul class="right hide-on-small-only">
-		        <li><a href="sass.html">Regístrate</a></li>
-		        <li><a href="badges.html">Inicia sesión</a></li>
-		        <li><a href="sass.html">Regístrate</a></li>
+		      
+		      <!--boton de registro-->
+		      <li><a class="modal-trigger" href="#modal2">Registrame</a></li>
+		          <!-- Menu que aparece al dar click -->
+		       
+			  <div id="modal2" class="modal">
+			    <div class="modal-content">
+			      <h4>Modal Header2</h4>
+			       <label for="last_name">Nombre</label>
+			      <input id="last_name" type="text">
+		          <label for="last_name">Usuario</label>
+		          <input id="last_name" type="text">
+		          <label for="last_name">Contrase;a</label>
+			      <input id="last_name" type="text">
+		          <label for="last_name">LConfirmar contrase;a</label>
+		          <input id="last_name" type="text">
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Registrarme</a>
+			    </div>
+			  </div>
+				
+				  <!--boton de registro-->
+		        <li><a class="modal-trigger" href="#modal1">Inicia Sesion</a></li>
+
+			<!-- Menu que aparece al dar click -->
+			  <div id="modal1" class="modal">
+			    <div class="modal-content">
+			      <h4>Modal Header</h4>
+			       <label for="last_name">Last Name</label>
+			      <input id="last_name" type="text">
+		          <label for="last_name">Last Name</label>
+		          <input id="last_name" type="text">
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Iniciar sesion</a>
+			    </div>
+			  </div>
+			  
 		        <!--SEARCH BAR-->
 		        <li><div class="input-field">
 		          <input id="search" type="search" required>
@@ -42,7 +78,9 @@
 		  	<a href="#!" class="brand-logo hide-on-med-and-up navsmall">Logo</a>
 		  	<br>
 		    <li><a href="sass.html">Registrate</a></li>
-		    <li><a href="badges.html">Inicia Sesion</a></li>		   
+		    <li><a class="modal-trigger" href="#modal1">Inicia Sesion</a></li>
+
+
 		  </ul>    
 
 		  </div>
